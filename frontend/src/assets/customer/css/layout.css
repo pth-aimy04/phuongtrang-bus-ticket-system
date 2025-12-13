@@ -1,0 +1,41 @@
+/* ===============================
+   🧱 Cấu trúc toàn trang
+================================= */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* ===============================
+   🚩 Navbar luôn ở trên cùng
+================================= */
+#navbar-container {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+/* ===============================
+   🧩 Khu vực nội dung chính
+================================= */
+main {
+  flex: 1; /* <--- PHẢI có dòng này */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ===============================
+   📍 Footer luôn ở đáy trang
+================================= */
+#footer-container {
+  margin-top: auto;
+}
