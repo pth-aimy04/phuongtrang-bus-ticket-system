@@ -73,13 +73,12 @@ npm start
 
 ```bash
 phuongtrang-bus-ticket-system/
-├── backend/
-├── frontend/
-├── sql/
+ backend/
+ frontend/
+
 ```
 
 ---
-
 
 ## Notes
 
